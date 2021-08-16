@@ -12,7 +12,6 @@ def function(DataSet):
              "Vietnam"]
     countries = []
     population = []
-    
     for entry in DataSet:
         if (entry['Year'] == '2014') and (entry['Region'] in asean):
             countries.append(entry['Region'])
